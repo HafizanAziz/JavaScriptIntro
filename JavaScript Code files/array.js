@@ -17,3 +17,11 @@ console.log(name1.includes(999))//check true or false for the existing of the va
 
 SliceName1 = name1.slice(3,8) //Slice the array to the specific length from postion 3 to before 8 (position 7)
 console.log(SliceName1) // print [ 40, 60, 80, 99.99, 200 ] from [111, 10, 20, 40, 60, 80, 99.99, 200, 1]
+
+var sum = 0
+for(let i=0; i<name1.length;i++)
+{
+    sum = sum + name1[i]
+
+}
+console.log(sum)
