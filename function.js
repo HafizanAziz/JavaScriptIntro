@@ -26,4 +26,15 @@ function devide(a,b)
 console.log(add(10,3))
 console.log(subtract(10,3))
 console.log(multi(10,3))
-console.log(devide(10,3))
+//console.log(devide(10,0))
+totaldevide=devide(10,0)
+
+
+
+if(totaldevide != Infinity)
+{
+    console.log("Not Infinity: ",totaldevide)
+
+}else{
+console.log("Infinity!")
+}
