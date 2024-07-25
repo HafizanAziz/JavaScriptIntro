@@ -13,3 +13,6 @@ person.Gender='Male' // add Gender:Male property to person object
 
 console.log(person) //{ FirstName: 'John', LastName: 'Wick', Gender: 'Male' }
 
+delete person.Gender
+console.log(person)
+
