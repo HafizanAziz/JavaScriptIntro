@@ -2,7 +2,8 @@ let person = {
     FirstName: 'John',
     LastName: 'Wick',
     Age: '31',
-    FullName: function() {
+    FullName: function() 
+    {
         return this.FirstName + this.LastName; // Function to compute and return the full name
     }
 };
