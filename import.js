@@ -11,4 +11,6 @@ console.log(kapal.age);        // Outputs: 31
 console.log(kapal.location);   // Outputs: Canada
 
 // Log the color property of the kapal instance
-console.log(kapal.color);      // Outputs: Biru
+console.log(kapal.color);      // Outputs: Black
+
+

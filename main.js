@@ -1,4 +1,4 @@
-const Kapal = require('./OOPS');
+const Kapal = require('./Kapal');
 
 // Create an instance of the Kapal class
 let kapal = new Kapal('Biru', 31);
@@ -8,3 +8,4 @@ console.log(kapal.type);       // Outputs: Kapal
 console.log(kapal.color);      // Outputs: Biru
 console.log(kapal.age);        // Outputs: 31
 console.log(kapal.location);   // Outputs: Canada
+console.log(kapal.start());    // Outputs: Kapal is starting.
